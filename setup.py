@@ -17,7 +17,7 @@ AUTHOR_EMAIL = 'volitilov@gmail.com'
 URL = 'https://github.com/volitilov/flamoon'
 
 
-with open("README.rst", "r") as fh:
+with open("pypi_doc.md", "r") as fh:
     README = fh.read()
     
 
@@ -40,10 +40,19 @@ setup(
     author_email=AUTHOR_EMAIL, 
     license='MIT', 
     packages=find_packages(), 
-    install_requires=['Flask==1.0.2', ], 
+    install_requires=[
+        'Flask==1.0.2', 
+        'Flask-Login==0.4.1',
+        'Flask-Mail==0.9.1',
+        'python-dotenv==0.8.2',
+        'Flask-SQLAlchemy==2.3.2',
+        'Flask-Migrate==2.1.1',
+        'psycopg2==2.7.4',
+        'psycopg2-binary==2.7.4'
+    ], 
     include_package_data=True,
     zip_safe=False,
-    test_suite='tests/test_basic',
+    test_suite='tests/manage',
     entry_points={
         'console_scripts': [
             'flamoon = flamoon.cli:main',
