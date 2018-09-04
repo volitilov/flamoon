@@ -4,5 +4,5 @@ python:
 
 # command to run test
 script:
-  - pip install requests pyautogui flamoon
+  - pip install requests pyautogui python-xlib flamoon
   - python3 tests/manage.py
