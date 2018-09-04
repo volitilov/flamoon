@@ -30,7 +30,7 @@ setup(
     classifiers=[
         'Intended Audience :: Developers',
         'Natural Language :: Russian',
-        'Development Status :: 1 - Planning',
+        'Development Status :: 4 - Beta',
         'License :: OSI Approved :: MIT License', 
         'Programming Language :: Python :: 3.5',
         'Topic :: Software Development :: Libraries :: Application Frameworks',
@@ -48,7 +48,7 @@ setup(
         'Flask-SQLAlchemy==2.3.2',
         'Flask-Migrate==2.1.1',
         'psycopg2==2.7.4',
-        'psycopg2-binary==2.7.4'
+        'psycopg2-binary==2.7.5'
     ], 
     include_package_data=True,
     zip_safe=False,
