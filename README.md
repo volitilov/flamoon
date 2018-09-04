@@ -44,7 +44,6 @@ Flask.
 
 ### technical requirements
 
-
 По умолчанию конфигурация настроена на работу с PostgreSQL, поэтому удачного
 старта можно добится только после установки и добавления своих авторизационных
 данных в файл `.env`.
@@ -75,18 +74,9 @@ $ flask run
 
 #### run tests
 
-run all tests
 ```bash
 $ flask test all
-```
-
-run client tests
-```bash
 $ flask test client
-```
-
-run basic tests
-```bash
 $ flask test app
 ```
 
@@ -114,12 +104,7 @@ $ flask profile
 
 #### work with database
 
-run migration
 ```bash
 $ flask db migrate -m 'message'
-```
-
-run upgrade
-```bash
 $ flask db upgrade
 ```

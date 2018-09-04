@@ -70,18 +70,9 @@ $ flask run
 
 #### run tests
 
-run all tests
 ```bash
 $ flask test all
-```
-
-run client tests
-```bash
 $ flask test client
-```
-
-run basic tests
-```bash
 $ flask test app
 ```
 
@@ -109,12 +100,7 @@ $ flask profile
 
 #### work with database
 
-run migration
 ```bash
 $ flask db migrate -m 'message'
-```
-
-run upgrade
-```bash
 $ flask db upgrade
 ```
