@@ -5,5 +5,5 @@ python:
 # command to run test
 script:
   - pip install requests pyautogui python-xlib flamoon
-  - export DISPLAY=:0
+  - pip intall xserver-xorg python-xlib xfce4 xauth
   - python3 tests/manage.py
