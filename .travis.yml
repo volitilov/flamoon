@@ -5,4 +5,5 @@ python:
 # command to run test
 script:
   - pip install requests pyautogui python-xlib flamoon
+  - export DISPLAY=:10.0
   - python3 tests/manage.py
