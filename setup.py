@@ -48,7 +48,7 @@ setup(
         'Flask-SQLAlchemy==2.3.2',
         'Flask-Migrate==2.1.1',
         'psycopg2==2.7.4',
-        'psycopg2-binary==2.7.4'
+        'psycopg2-binary==2.7.5'
     ], 
     include_package_data=True,
     zip_safe=False,

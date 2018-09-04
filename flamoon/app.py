@@ -36,8 +36,6 @@ class App:
         
         except FileExistsError:
             os.system('echo "\n[ \033[31mFalse\033[0m ] - вы уже инициализировали данные\n"')
-        
-        print()
 
 # alias
 app = App()
