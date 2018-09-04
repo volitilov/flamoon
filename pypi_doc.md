@@ -1,11 +1,5 @@
 # flamoon
-
-[![Foo](https://badges.gitter.im/flamoon/Lobby.svg)](https://gitter.im/japronto/Lobby)
-[![Foo](https://img.shields.io/pypi/v/flamoon.svg)](https://pypi.python.org/pypi/flamoon)
-[![Foo](https://img.shields.io/pypi/pyversions/flamoon.svg)](https://pypi.python.org/pypi/flamoon/)
-[![Foo](https://travis-ci.org/volitilov/flamoon.svg?branch=master)](https://travis-ci.org/volitilov/flamoon)
-
----
+------
 
 Надстройка над Flask, для быстрой и удобной web-разработки. При инициализации
 формирует уже готовый набор данных необходиммых для старта web-разработки на
@@ -43,7 +37,7 @@ Flask.
 
 
 ### technical requirements
-
+------
 
 По умолчанию конфигурация настроена на работу с PostgreSQL, поэтому удачного
 старта можно добится только после установки и добавления своих авторизационных
@@ -51,13 +45,14 @@ Flask.
 
 
 ### install
+------
 
 ```bash
 $ pip install flamoon
 ```
 
 ### usage
-
+------
 #### create new project
 
 ```bash
