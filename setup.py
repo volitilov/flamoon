@@ -41,7 +41,7 @@ setup(
     license='MIT', 
     packages=find_packages(), 
     install_requires=[
-        'Flask==2.3.2', 
+        'Flask==3.1.3', 
         'Flask-Login==0.4.1',
         'Flask-Mail==0.9.1',
         'python-dotenv==0.8.2',
