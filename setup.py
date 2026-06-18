@@ -44,7 +44,7 @@ setup(
         'Flask==2.3.2', 
         'Flask-Login==0.4.1',
         'Flask-Mail==0.9.1',
-        'python-dotenv==0.8.2',
+        'python-dotenv==1.2.2',
         'Flask-SQLAlchemy==2.3.2',
         'Flask-Migrate==2.1.1',
         'psycopg2==2.7.4',
